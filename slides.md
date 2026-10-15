@@ -26,7 +26,7 @@ class: no-footer
 Triton, research software engineering and training at Aalto
 
 ::presenter::
-Presenter Name · October 2026 · Espoo
+Enrico Glerean · October 2026 · Espoo
 
 ---
 layout: cover
