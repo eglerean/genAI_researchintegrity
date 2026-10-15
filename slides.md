@@ -65,6 +65,7 @@ layout: three-cols
 <style>
 .ref-line { font-size: 0.7rem; opacity: 0.75; margin: -0.6rem 0 0.8rem; }
 .col li { line-height: 1.4; margin: 0.2rem 0; }
+.hidden-ai { margin-top: 0.9rem; font-size: 0.72rem; line-height: 1.35; opacity: 0.8; }
 </style>
 
 ::left::
@@ -96,9 +97,7 @@ AI is something that helps with the work.
 - A coding agent writing analysis scripts
 - An AI assistant helping to fill in a data management plan
 
-<!--
-Today I am talking about the third column, the tool, and about how the tool turns into a user.
--->
+<p class="hidden-ai">Invisible AI: in word processors, search engines, translation, and transcription tools.</p>
 
 ---
 layout: default
