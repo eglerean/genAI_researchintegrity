@@ -383,30 +383,29 @@ layout: default
 
 # Responsible AI principles and research integrity
 
-<div class="ref-line"><a href="https://allea.org/code-of-conduct/">ALLEA: The European Code of Conduct for Research Integrity</a> | <a href="https://www.aalto.fi/en/services/responsible-use-of-generative-artificial-intelligence-in-the-research-process">Responsible use of generative artificial intelligence in the research process (Aalto.fi)</a> | <a href="https://tenk.fi/sites/default/files/2026-06/Artificial%20Intelligence%20in%20Research.%20TENK%27s%20Recommendation%202026.pdf">Artificial Intelligence in Research (TENK 2026)</a></div>
+<div class="ref-line"><a href="https://allea.org/code-of-conduct/">ALLEA Code of Conduct</a> | <a href="https://research-and-innovation.ec.europa.eu/document/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en">EC Living Guidelines (2026)</a> | <a href="https://www.aalto.fi/en/services/responsible-use-of-generative-artificial-intelligence-in-the-research-process">Aalto.fi guidelines</a> | <a href="https://tenk.fi/sites/default/files/2026-06/Artificial%20Intelligence%20in%20Research.%20TENK%27s%20Recommendation%202026.pdf">TENK 2026</a></div>
 
 <div class="allea">
   <div class="al-principle"><h3>Reliability</h3>Quality of research/education, reflected in the design, methodology, analysis, and use of resources.</div>
   <div class="al-practice">• <strong>Verify</strong> and <strong>reproduce</strong> AI-generated information; watch for bias and inaccuracy<br>
-  • Check all <strong>references</strong>, <strong>citations</strong> and <strong>summaries</strong>: AI can hallucinate and fabricate citations<br>
-  • Aim for <strong>reproducible, robust results</strong></div>
+  • Check all <strong>references</strong>, <strong>citations</strong> and <strong>summaries</strong>: AI fabricates citations and misstates real ones<br>
+  • Output is non-deterministic: keep <strong>prompts, logs and model versions</strong> when needed to reproduce or audit</div>
 
   <div class="al-principle"><h3>Honesty</h3>Doing your work in a transparent, fair, full, and unbiased way.</div>
-  <div class="al-practice">• <strong>Disclose</strong> that generative AI has been used<br>
-  • When AI meaningfully shapes results, <strong>note it in the methods section</strong>, following your journal's or discipline's standards<br>
-  • Disclose the tool's limitations</div>
+  <div class="al-practice">• <strong>Disclose</strong> AI use that shapes your judgement or could affect results; in doubt, disclose<br>
+  • Say <strong>how you verified</strong> the output (e.g. hallucination checks, bias mitigation)<br>
+  • Follow your journal's, funder's or discipline's rules on where and how</div>
 
   <div class="al-principle"><h3>Respect</h3>Towards colleagues, research participants, research subjects, society, cultural heritage, and the environment.</div>
-  <div class="al-practice">• Protect privacy, confidentiality and IP: use <strong>Aalto AI Assistant</strong> for confidential data<br>
+  <div class="al-practice">• Protect privacy, confidentiality, IP and <strong>research security</strong>: use <strong>Aalto AI Assistant</strong> for confidential data<br>
   • <strong>Don't upload unpublished work</strong>, yours or colleagues', to external tools<br>
   • <strong>Cite and credit sources</strong> that AI output may reproduce; choose the <strong>lowest-impact tool</strong> for the task</div>
 
   <div class="al-principle"><h3>Accountability</h3>From idea to publication, and all the steps of the study / teaching / research process.</div>
-  <div class="al-practice">• You remain <strong>fully responsible for the integrity of AI-assisted content</strong><br>
-  • AI systems are <strong>neither authors nor co-authors</strong>: authorship lies with human researchers<br>
-  • <strong>Avoid AI use in peer review and grant evaluation</strong></div>
+  <div class="al-practice">• You remain <strong>fully responsible</strong> for AI-assisted content, also when <strong>agents</strong> act for you: validate critical decisions at set checkpoints<br>
+  • AI systems are <strong>neither authors, co-authors nor owners</strong>: authorship lies with human researchers<br>
+  • Peer review and grant evaluation: <strong>never delegate the judgement</strong>; funder and journal rules come first</div>
 </div>
-
 <style>
 .ref-line { font-size: 0.7rem; opacity: 0.75; margin: -0.6rem 0 0.8rem; }
 .allea { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 0.5rem 0.75rem; }
@@ -484,7 +483,7 @@ layout: default
   <p>• AI can never be granted authorship: <strong>accountability is liability</strong></p>
   <p>• LLMs are probabilistic tools: the chance they generate something fabricated is never zero</p>
   <p>• <strong>"If you cannot explain it, you cannot stand behind it"</strong> → disclose</p>
-  <p>• There is <strong>no consensus yet</strong> on what to disclose: a <a href="https://council.science/our-work/ai-disclosure-in-research/">global reporting standard</a> (ISC, STM, COPE) is being drafted; see also <a href="https://tenk.fi/sites/default/files/2026-06/Artificial%20Intelligence%20in%20Research.%20TENK%27s%20Recommendation%202026.pdf">TENK 2026</a></p>
+  <p>• <strong>No consensus yet</strong>: a <a href="https://council.science/our-work/ai-disclosure-in-research/">global reporting standard</a> (ISC, COPE, STM, Global Young Academy) is being developed at the World Conference on Research Integrity 2026 and will feed the next EC guidelines; see also <a href="https://tenk.fi/sites/default/files/2026-06/Artificial%20Intelligence%20in%20Research.%20TENK%27s%20Recommendation%202026.pdf">TENK 2026</a></p>
   <h3 class="dc-sub"><a href="https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals">Example from Elsevier:</a></h3>
   <p>- Protect your data, the data of your subjects, IPR/copyright</p>
   <p>- Grammar, spelling, punctuation check → no need to declare</p>
@@ -493,8 +492,8 @@ layout: default
 </div>
 <div class="dc-right">
   <div class="dc-box">
-    <h3>European Commission: disclose "substantial use"</h3>
-    <p>Basic editorial support is not substantial. Using AI as a method or source, for data analysis, literature review, research gaps, aims or hypotheses can be. Then note the tool's name, version, date and how it affected the research; share prompts and outputs if relevant (<a href="https://research-and-innovation.ec.europa.eu/document/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en">Living guidelines</a>)</p>
+    <h3>European Commission: disclose substantial use</h3>
+    <p>Disclose AI use that <strong>shapes your judgement</strong> or could affect results or their interpretation. Using AI as a method or source, or for literature review, research gaps, aims, hypotheses or data analysis, <strong>is</strong> substantial; spelling, grammar, polishing and formatting are not. Say <strong>how you verified</strong> the output; keep prompts, logs and model versions if needed to reproduce or audit. In doubt, disclose (<a href="https://research-and-innovation.ec.europa.eu/document/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en">Living guidelines, EC 2026</a>)</p>
   </div>
   <div class="dc-box">
     <h3>STM: a classification of AI use in manuscripts</h3>
