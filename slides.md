@@ -205,14 +205,14 @@ layout: default
   </text>
 </svg>
 <div class="p-cards">
-  <div class="p-card" style="--slice: var(--aalto-green)">
+  <div class="p-card">
     AI Governance in Practice <span class="p-src">(<a href="https://www.turing.ac.uk/research/research-projects/ai-ethics-and-governance-practice">The Alan Turing Institute</a>)</span><br>
     <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng">Artificial Intelligence Act</a>
   </div>
-  <div class="p-card" style="--slice: var(--aalto-yellow)">
+  <div class="p-card">
     SSAFE-D: Sustainability, Safety, Accountability, Fairness, Explainability, Data Stewardship <span class="p-src">(<a href="https://www.turing.ac.uk/research/research-projects/ai-ethics-and-governance-practice">The Alan Turing Institute</a>)</span>
   </div>
-  <div class="p-card" style="--slice: var(--aalto-red)">
+  <div class="p-card">
     Beneficence, Non-maleficence, Autonomy, Justice, Explicability <span class="p-src"><a href="https://academic.oup.com/book/46748">(Floridi 2023)</a></span>
   </div>
 </div>
@@ -223,7 +223,7 @@ layout: default
 .pyramid { display: grid; grid-template-columns: auto 1fr; gap: 1.5rem; height: 360px; margin-top: 0.5rem; }
 .pyramid svg { height: 100%; width: auto; }
 .pyramid .p-cards { display: grid; grid-template-rows: 170fr 120fr 130fr; height: 100%; }
-.pyramid .p-card { align-self: center; padding: 0.5rem 0.75rem; font-size: 1.0rem; line-height: 1.35; background: var(--asc-surface); border: 1px solid var(--asc-border); border-left: 6px solid var(--slice); border-radius: var(--asc-radius-lg); }
+.pyramid .p-card { align-self: center; padding: 0.5rem 0.75rem; font-size: 1.0rem; line-height: 1.35; background: var(--asc-surface); border: 1px solid var(--asc-border); border-radius: var(--asc-radius-lg); }
 .pyramid .p-src { color: var(--asc-muted); }
 .pyramid polygon { stroke: var(--asc-bg, #fff); stroke-width: 6; stroke-linejoin: round; }
 .pyramid .p-bottom { fill: var(--aalto-red); }
@@ -319,7 +319,7 @@ layout: default
 <div class="ref-line"><a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng">Regulation (EU) 2024/1689</a>: a risk-based approach. Most AI tools are minimal risk with no new obligations; general-purpose AI models (e.g. GPT, Gemini, Claude) have their own rules.</div>
 
 <div class="aia-grid">
-  <div class="aia-card" style="--c: var(--aalto-red)">
+  <div class="aia-card">
     <h3>Prohibited</h3>
     <p class="aia-when">Unacceptable risk · since 2 Feb 2025</p>
     <p>• Social scoring<br>
@@ -328,7 +328,7 @@ layout: default
     • Emotion recognition at work and in education<br>
     • Predicting crime from profiling alone</p>
   </div>
-  <div class="aia-card" style="--c: var(--aalto-orange)">
+  <div class="aia-card">
     <h3>High risk</h3>
     <p class="aia-when">Strict requirements · from 2 Dec 2027</p>
     <p>• Education: admission, grading, proctoring<br>
@@ -337,7 +337,7 @@ layout: default
     • Law enforcement, migration, justice<br>
     • Risk management, data quality, documentation, human oversight</p>
   </div>
-  <div class="aia-card" style="--c: var(--aalto-yellow)">
+  <div class="aia-card">
     <h3>Transparency</h3>
     <p class="aia-when">Limited risk · since 2 Aug 2026</p>
     <p>• Tell people they are talking to an AI<br>
@@ -358,7 +358,7 @@ layout: default
 <style>
 .ref-line { font-size: 0.7rem; opacity: 0.75; margin: -0.6rem 0 0.8rem; }
 .aia-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.75rem; }
-.aia-card { padding: 0.6rem 0.8rem; background: var(--asc-surface); border: 1px solid var(--asc-border); border-left: 6px solid var(--c); border-radius: var(--asc-radius-lg); }
+.aia-card { padding: 0.6rem 0.8rem; background: var(--asc-surface); border: 1px solid var(--asc-border); border-radius: var(--asc-radius-lg); }
 .aia-card h3 { margin: 0; font-size: 1rem; }
 .aia-card p { margin: 0; font-size: 0.75rem; line-height: 1.35; }
 .aia-card .aia-when { margin: 0.1rem 0 0.4rem; color: var(--asc-muted); }
@@ -536,7 +536,7 @@ class: title-middle
 layout: default
 ---
 
-# Best practices for AI use in research work
+# When should I use AI in research work?
 
 <div class="ref-line"><a href="https://www.aalto.fi/en/research-art/best-practices-for-ai-use-in-research-work">Best practices for AI use in research work (Aalto.fi)</a></div>
 
@@ -552,16 +552,16 @@ layout: default
   <tbody>
     <tr>
       <td><strong>High risk</strong> (peer-review submission: text, code, figures, references)</td>
-      <td>Use AI only to <strong>brainstorm</strong>: ask it what sources to read, get keyword suggestions, then go read the real sources.<br>
+      <td class="bp-red">Use AI only to <strong>brainstorm</strong>: ask it what sources to read, get keyword suggestions, then go read the real sources.<br>
       <em>Example: find relevant keywords or ask which statistical methods might fit your data, then go read about them yourself.</em></td>
-      <td>Use AI for <strong>simple delegated tasks</strong> you can fully review. Check everything as carefully as if you had retyped it yourself. This is where overconfidence is most dangerous.<br>
+      <td class="bp-orange">Use AI for <strong>simple delegated tasks</strong> you can fully review. Check everything as carefully as if you had retyped it yourself. This is where overconfidence is most dangerous.<br>
       <em>Examples: generating short code snippets function-by-function. Text revision: ask AI to mark suggested text changes in bold, so you can decide which ones to apply manually to your final text.</em></td>
     </tr>
     <tr>
       <td><strong>Low risk</strong> (event webpage, social media post, presentations)</td>
-      <td>Use AI, but <strong>accept a non-zero chance of errors</strong> slipping through.<br>
+      <td class="bp-darkyellow">Use AI, but <strong>accept a non-zero chance of errors</strong> slipping through.<br>
       <em>Example: help with CSS for a workshop webpage or vibe-coding a small demo.</em></td>
-      <td><strong>Delegate most of the work to AI</strong>. Verify that the output makes sense.<br>
+      <td class="bp-green"><strong>Delegate most of the work to AI</strong>. Verify that the output makes sense.<br>
       <em>Example: generating documentation for scripts you wrote, or drafting an outline of a presentation from a transcription of your own recordings.</em></td>
     </tr>
   </tbody>
@@ -573,12 +573,17 @@ p { font-size: 0.8rem; line-height: 1.35; margin: 0 0 0.6rem; }
 /* Outer frame on the table, like the theme's tables (layouts.css:176); cells only draw the inner lines */
 .bp-matrix { width: 100%; margin: 0; border-collapse: separate; border-spacing: 0; border: 1px solid var(--asc-border); border-radius: var(--asc-radius-lg); overflow: hidden; font-size: 0.7rem; line-height: 1.35; }
 .bp-matrix th, .bp-matrix td { padding: 0.4rem 0.6rem; border: 0; border-right: 1px solid var(--asc-border); border-bottom: 1px solid var(--asc-border); vertical-align: top; text-align: left; }
-.bp-matrix tr > :last-child { border-right: 0; }
+.bp-matrix th:last-child, .bp-matrix td:last-child { border-right: 0; }
 .bp-matrix tbody tr:last-child td { border-bottom: 0; }
 /* Dark header row, same colours as the theme's dark card (layouts.css:239) */
 .bp-matrix th { background: var(--asc-night); color: var(--asc-paper); font-size: 0.85rem; }
 .bp-matrix td:first-child { width: 22%; }
 .bp-matrix em { display: block; margin-top: 0.35rem; }
+/* Risk colours at 50% so they blend with the white table into lighter tints; high risk + low expertise is the most dangerous cell */
+.bp-matrix .bp-red { background: color-mix(in srgb, var(--aalto-red) 50%, transparent); color: #000; }
+.bp-matrix .bp-orange { background: color-mix(in srgb, var(--aalto-orange) 50%, transparent); color: #000; }
+.bp-matrix .bp-darkyellow { background: color-mix(in srgb, var(--aalto-darkyellow) 50%, transparent); color: #000; }
+.bp-matrix .bp-green { background: color-mix(in srgb, var(--aalto-green) 50%, transparent); color: #000; }
 </style>
 
 
