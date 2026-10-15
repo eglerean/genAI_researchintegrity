@@ -322,28 +322,34 @@ layout: default
   <div class="aia-card">
     <h3>Prohibited</h3>
     <p class="aia-when">Unacceptable risk · since 2 Feb 2025</p>
-    <p>• Social scoring<br>
-    • Manipulation, exploiting vulnerabilities<br>
-    • Untargeted scraping of face images<br>
-    • Emotion recognition at work and in education<br>
-    • Predicting crime from profiling alone</p>
+    <ul>
+      <li>Social scoring</li>
+      <li>Manipulation, exploiting vulnerabilities</li>
+      <li>Untargeted scraping of face images</li>
+      <li>Emotion recognition at work and in education</li>
+      <li>Predicting crime from profiling alone</li>
+    </ul>
   </div>
   <div class="aia-card">
     <h3>High risk</h3>
     <p class="aia-when">Strict requirements · from 2 Dec 2027</p>
-    <p>• Education: admission, grading, proctoring<br>
-    • Employment: hiring, evaluating workers<br>
-    • Access to credit and essential services<br>
-    • Law enforcement, migration, justice<br>
-    • Risk management, data quality, documentation, human oversight</p>
+    <ul>
+      <li>Education: admission, grading, proctoring</li>
+      <li>Employment: hiring, evaluating workers</li>
+      <li>Access to credit and essential services</li>
+      <li>Law enforcement, migration, justice</li>
+      <li>Risk management, data quality, documentation, human oversight</li>
+    </ul>
   </div>
   <div class="aia-card">
     <h3>Transparency</h3>
     <p class="aia-when">Limited risk · since 2 Aug 2026</p>
-    <p>• Tell people they are talking to an AI<br>
-    • Mark AI-generated content as machine-readable<br>
-    • Label deepfakes<br>
-    • Disclose emotion recognition and biometric categorisation</p>
+    <ul>
+      <li>Tell people they are talking to an AI</li>
+      <li>Mark AI-generated content as machine-readable</li>
+      <li>Label deepfakes</li>
+      <li>Disclose emotion recognition and biometric categorisation</li>
+    </ul>
   </div>
 </div>
 
@@ -361,6 +367,8 @@ layout: default
 .aia-card { padding: 0.6rem 0.8rem; background: var(--asc-surface); border: 1px solid var(--asc-border); border-radius: var(--asc-radius-lg); }
 .aia-card h3 { margin: 0; font-size: 1rem; }
 .aia-card p { margin: 0; font-size: 0.75rem; line-height: 1.35; }
+.aia-card ul { margin: 0; padding-left: 1.1rem; }
+.aia-card li { margin: 0; font-size: 0.75rem; line-height: 1.35; }
 .aia-card .aia-when { margin: 0.1rem 0 0.4rem; color: var(--asc-muted); }
 .aia-bottom { margin-top: 0.75rem; padding: 0.6rem 1.3rem; }
 .aia-bottom p { font-size: 0.8rem; line-height: 1.35; margin: 0; }
@@ -383,28 +391,36 @@ layout: default
 
 # Responsible AI principles and research integrity
 
-<div class="ref-line"><a href="https://allea.org/code-of-conduct/">ALLEA Code of Conduct</a> | <a href="https://research-and-innovation.ec.europa.eu/document/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en">EC Living Guidelines (2026)</a> | <a href="https://www.aalto.fi/en/services/responsible-use-of-generative-artificial-intelligence-in-the-research-process">Aalto.fi guidelines</a> | <a href="https://tenk.fi/sites/default/files/2026-06/Artificial%20Intelligence%20in%20Research.%20TENK%27s%20Recommendation%202026.pdf">TENK 2026</a></div>
+<div class="ref-line"><a href="https://allea.org/code-of-conduct/">ALLEA Code of Conduct</a> | <a href="https://research-and-innovation.ec.europa.eu/document/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en">EC Living Guidelines (October, 2026)</a> | <a href="https://www.aalto.fi/en/services/responsible-use-of-generative-artificial-intelligence-in-the-research-process">Aalto.fi guidelines</a> | <a href="https://tenk.fi/sites/default/files/2026-06/Artificial%20Intelligence%20in%20Research.%20TENK%27s%20Recommendation%202026.pdf">TENK 2026</a></div>
 
 <div class="allea">
   <div class="al-principle"><h3>Reliability</h3>Quality of research/education, reflected in the design, methodology, analysis, and use of resources.</div>
-  <div class="al-practice">• <strong>Verify</strong> and <strong>reproduce</strong> AI-generated information; watch for bias and inaccuracy<br>
-  • Check all <strong>references</strong>, <strong>citations</strong> and <strong>summaries</strong>: AI fabricates citations and misstates real ones<br>
-  • Output is non-deterministic: keep <strong>prompts, logs and model versions</strong> when needed to reproduce or audit</div>
+  <ul class="al-practice">
+    <li><strong>Verify</strong> and <strong>reproduce</strong> AI-generated information; watch for bias and inaccuracy</li>
+    <li>Check all <strong>references</strong>, <strong>citations</strong> and <strong>summaries</strong>: AI fabricates citations and misstates real ones</li>
+    <li>Output is non-deterministic: keep <strong>prompts, logs and model versions</strong> when needed to reproduce or audit</li>
+  </ul>
 
   <div class="al-principle"><h3>Honesty</h3>Doing your work in a transparent, fair, full, and unbiased way.</div>
-  <div class="al-practice">• <strong>Disclose</strong> AI use that shapes your judgement or could affect results; in doubt, disclose<br>
-  • Say <strong>how you verified</strong> the output (e.g. hallucination checks, bias mitigation)<br>
-  • Follow your journal's, funder's or discipline's rules on where and how</div>
+  <ul class="al-practice">
+    <li><strong>Disclose</strong> AI use that shapes your judgement or could affect results; in doubt, disclose</li>
+    <li>Say <strong>how you verified</strong> the output (e.g. hallucination checks, bias mitigation)</li>
+    <li>Follow your journal's, funder's or discipline's rules on where and how</li>
+  </ul>
 
   <div class="al-principle"><h3>Respect</h3>Towards colleagues, research participants, research subjects, society, cultural heritage, and the environment.</div>
-  <div class="al-practice">• Protect privacy, confidentiality, IP and <strong>research security</strong>: use <strong>Aalto AI Assistant</strong> for confidential data<br>
-  • <strong>Don't upload unpublished work</strong>, yours or colleagues', to external tools<br>
-  • <strong>Cite and credit sources</strong> that AI output may reproduce; choose the <strong>lowest-impact tool</strong> for the task</div>
+  <ul class="al-practice">
+    <li>Protect privacy, confidentiality, IP and <strong>research security</strong>: use <strong>Aalto AI Assistant</strong> for confidential data</li>
+    <li><strong>Don't upload unpublished work</strong>, yours or colleagues', to external tools</li>
+    <li><strong>Cite and credit sources</strong> that AI output may reproduce; choose the <strong>lowest-impact tool</strong> for the task</li>
+  </ul>
 
   <div class="al-principle"><h3>Accountability</h3>From idea to publication, and all the steps of the study / teaching / research process.</div>
-  <div class="al-practice">• You remain <strong>fully responsible</strong> for AI-assisted content, also when <strong>agents</strong> act for you: validate critical decisions at set checkpoints<br>
-  • AI systems are <strong>neither authors, co-authors nor owners</strong>: authorship lies with human researchers<br>
-  • Peer review and grant evaluation: <strong>never delegate the judgement</strong>; funder and journal rules come first</div>
+  <ul class="al-practice">
+    <li>You remain <strong>fully responsible</strong> for AI-assisted content, also when <strong>agents</strong> act for you</li>
+    <li>AI systems are <strong>neither authors, co-authors nor owners</strong>: authorship lies with human researchers</li>
+    <li>Peer review and grant evaluation: <strong>never delegate the judgement</strong>; funder and journal rules come first</li>
+  </ul>
 </div>
 
 <style>
@@ -412,7 +428,8 @@ layout: default
 .allea { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 0.5rem 0.75rem; }
 .al-principle, .al-practice { padding: 0.45rem 0.8rem; font-size: 0.75rem; line-height: 1.35; background: var(--asc-surface); border: 1px solid var(--asc-border); border-radius: var(--asc-radius-lg); }
 /* Same colours as the theme's dark card (layouts.css:239) */
-.al-practice { background: var(--asc-night); border-color: var(--asc-night); color: var(--asc-paper); }
+.al-practice { margin: 0; padding-left: 1.8rem; background: var(--asc-night); border-color: var(--asc-night); color: var(--asc-paper); }
+.al-practice li { margin: 0; font-size: 0.75rem; line-height: 1.35; }
 .al-principle h3 { margin: 0 0 0.15rem; font-size: 0.95rem; }
 </style>
 
