@@ -16,6 +16,12 @@ html.asc-palette-aalto-classic {
   --aalto-blue: #46A5FF;
   --aalto-red: #FD6360;
   --aalto-yellow: #F7E159;
+  --aalto-magenta: #DC6ADE;
+  --aalto-violet: #A987FF;
+  --aalto-aquagreen: #5DD089;
+  --aalto-darkyellow: #FFC341;
+  --aalto-green: #9BD84C;
+  --aalto-orange: #FF8D4F;
 
   /* Neutrals become plain white, light grey and black */
   --asc-ivory: #FFFFFF;
