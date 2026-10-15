@@ -481,20 +481,28 @@ layout: default
 <div class="dc-cols">
 <div class="dc-box dc-why">
   <h3>Why disclose?</h3>
-  <p>• AI can never be granted authorship: <strong>accountability is liability</strong></p>
-  <p>• LLMs are probabilistic tools: the chance they generate something fabricated is never zero</p>
-  <p>• <strong>"If you cannot explain it, you cannot stand behind it"</strong> → disclose</p>
-  <p>• <strong>No consensus yet</strong>: a <a href="https://council.science/our-work/ai-disclosure-in-research/">global reporting standard</a> (ISC, COPE, STM, Global Young Academy) is being developed at the World Conference on Research Integrity 2026 and will feed the next EC guidelines; see also <a href="https://tenk.fi/sites/default/files/2026-06/Artificial%20Intelligence%20in%20Research.%20TENK%27s%20Recommendation%202026.pdf">TENK 2026</a></p>
+  <ul>
+    <li>AI can never be granted authorship: <strong>accountability is liability</strong></li>
+    <li>LLMs are probabilistic tools: the chance they generate something fabricated is never zero</li>
+    <li><strong>"If you cannot explain it, you cannot stand behind it"</strong> → disclose</li>
+    <li><strong>No consensus yet</strong>: a <a href="https://council.science/our-work/ai-disclosure-in-research/">global reporting standard</a> (ISC, COPE, STM, Global Young Academy) is being developed at the World Conference on Research Integrity 2026 and will feed the next EC guidelines</li>
+  </ul>
   <h3 class="dc-sub"><a href="https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals">Example from Elsevier:</a></h3>
-  <p>- Protect your data, the data of your subjects, IPR/copyright</p>
-  <p>- Grammar, spelling, punctuation check → no need to declare</p>
-  <p>- Any other use → declare</p>
-  <p>- No AI images unless it's for the research design/methods visualisation</p>
+  <ul>
+    <li>Protect your data, the data of your subjects, IPR/copyright</li>
+    <li>Grammar, spelling, punctuation check → no need to declare</li>
+    <li>Any other use → declare</li>
+    <li>No AI images unless it's for the research design/methods visualisation</li>
+  </ul>
 </div>
 <div class="dc-right">
   <div class="dc-box">
     <h3>European Commission: disclose substantial use</h3>
     <p>Disclose AI use that <strong>shapes your judgement</strong> or could affect results or their interpretation. Using AI as a method or source, or for literature review, research gaps, aims, hypotheses or data analysis, <strong>is</strong> substantial; spelling, grammar, polishing and formatting are not. Say <strong>how you verified</strong> the output; keep prompts, logs and model versions if needed to reproduce or audit. In doubt, disclose (<a href="https://research-and-innovation.ec.europa.eu/document/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en">Living guidelines, EC 2026</a>)</p>
+  </div>
+  <div class="dc-box">
+    <h3>TENK (Finland): substantial influence → always disclose</h3>
+    <p>AI that substantially influences the research, its results or conclusions <strong>must always be disclosed</strong>; a purely technical aid generally need not be, unless it affects how reliability can be assessed. Report AI like any other important method or tool, also in research plans and data management plans. Non-disclosure where transparency is essential <strong>may be a research integrity violation</strong> (<a href="https://tenk.fi/sites/default/files/2026-06/Artificial%20Intelligence%20in%20Research.%20TENK%27s%20Recommendation%202026.pdf">TENK 2026</a>)</p>
   </div>
   <div class="dc-box">
     <h3>STM: a classification of AI use in manuscripts</h3>
@@ -509,16 +517,17 @@ layout: default
 
 <style>
 .dc-cols { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 0.75rem; }
-.dc-right { display: grid; gap: 0.6rem; }
-.dc-box { padding: 0.5rem 0.8rem; background: var(--asc-surface); border: 1px solid var(--asc-border); border-radius: var(--asc-radius-lg); }
+.dc-right { display: grid; gap: 0.45rem; }
+.dc-box { padding: 0.4rem 0.8rem; background: var(--asc-surface); border: 1px solid var(--asc-border); border-radius: var(--asc-radius-lg); }
 .dc-box h3 { margin: 0 0 0.2rem; font-size: 0.9rem; }
 .dc-box p { margin: 0; font-size: 0.72rem; line-height: 1.35; }
-/* Same colours as the theme's dark card (layouts.css:239); light Aalto blue keeps links readable on black */
-.dc-why { background: var(--asc-night); border-color: var(--asc-night); color: var(--asc-paper); }
-.dc-why h3 { color: inherit; }
-.dc-why p { margin-bottom: 0.45rem; font-size: 0.78rem; }
-.dc-why a { color: var(--aalto-blue); }
+.dc-why ul { margin: 0; padding-left: 1.1rem; }
+.dc-why li { margin: 0 0 0.35rem; font-size: 0.78rem; line-height: 1.35; }
 .dc-why .dc-sub { margin-top: 0.6rem; }
+/* Right-column boxes: same colours as the theme's dark card (layouts.css:239); light Aalto blue keeps links readable on black */
+.dc-right .dc-box { background: var(--asc-night); border-color: var(--asc-night); color: var(--asc-paper); }
+.dc-right .dc-box h3 { color: inherit; }
+.dc-right .dc-box a { color: var(--aalto-blue); }
 </style>
 
 
