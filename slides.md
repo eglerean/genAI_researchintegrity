@@ -489,6 +489,17 @@ layout: default
 .mm-refs a { color: var(--aalto-blue); }
 </style>
 
+
+---
+layout: section
+color: dark
+hexText: "Did\nyou\nuse\nAI?"
+class: title-middle
+---
+
+# When/Where/What AI use should be disclosed?
+
+
 ---
 layout: default
 ---
@@ -555,7 +566,7 @@ hexText: "AI\nYes\nOR\nNo?"
 class: title-middle
 ---
 
-# What is permitted AI use? 
+# What is permitted AI use in research? 
 # Do I *have* to use AI?
 
 ---
@@ -621,8 +632,12 @@ p { font-size: 0.8rem; line-height: 1.35; margin: 0 0 0.6rem; }
 layout: end
 ---
 
-**If you do not have the ability or the resources to verify the output of GenAI systems** (e.g. by finding the relevant citations for the synthesised text, by verifying that others’ works are summarised correctly, by detecting plagiarised text or code, by verifying the analysis code) **then you should not use the output of GenAI systems beyond self-learning or brainstorming.**
+# Take home message
 
+**If you do not have the ability or the resources to verify the output of AI systems** (e.g. by finding the relevant citations for the synthesised text, by verifying that others’ works are summarised correctly, by detecting plagiarised text or code, by verifying the analysis code) **then you should not use the output of AI systems beyond self-learning or brainstorming.**
+
+<br>
+<br>
 
 We are all learning together, join our dedicated <a href="https://www.aalto.fi/en/services/ai-training-for-the-entire-aalto-community">trainings on AI tools in research</a>, or come talk with <a href="https://www.aalto.fi/en/services/research-software-engineers">Aalto Research Software Engineers</a> and <a href="https://www.aalto.fi/en/services/data-agents">Aalto Data Agents</a>.
 
