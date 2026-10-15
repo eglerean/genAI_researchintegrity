@@ -115,51 +115,50 @@ layout: default
   <div class="stage" style="--stage: var(--aalto-violet)">Share</div>
   <div class="stage" style="--stage: var(--aalto-red)">Reuse</div>
 
-  <div class="cell">
+    <div class="cell">
   • Grant writing<br>
   • Research planning<br>
   • Study design<br>
-  • Browsing and summarizing the literature
+  • Browsing and summarising the literature
   </div>
   <div class="cell">
   • Interfaces for data collection<br>
-  • Code and automation help
+  • Code and automation help<br>
+  • Synthetic data generation
   </div>
   <div class="cell">
   • Brainstorming on approaches for data preprocessing<br>
   • Code and automation<br>
-  • Data minimization (pseudo- and anonymization)<br>
+  • Data minimisation (pseudo- and anonymisation)<br>
   • Data annotation (e.g. deductive coding)
   </div>
   <div class="cell">
   • Annotations<br>
   • Methodological considerations<br>
-  • Data analysis (Code and automation)
+  • Data analysis (code and automation)
   </div>
   <div class="cell">
   • Metadata preparation<br>
   • Summarising<br>
-  • Organise and store (meta)data
+  • Organising and storing (meta)data
   </div>
   <div class="cell">
-  • Write and editing<br>
-  • Improve research outputs (tables, figures)<br>
+  • Writing and editing<br>
+  • Improving research outputs (tables, figures)<br>
   • Peer review simulation<br>
-  • Summarizing for public<br>
-  • Media reach out
+  • Summarising for the public<br>
+  • Media outreach
   </div>
   <div class="cell">
-  • Facilitate discovery and FAIR-ness<br>
-  • Explore open datasets<br>
-  • Identify research gaps
+  • Facilitating discovery and FAIRness<br>
+  • Exploring open datasets<br>
+  • Identifying research gaps
   </div>
 </div>
 
 
-
 <div class="card dark ow-bottom">
-
-There are multiple uses of AI across the <a href="https://rdmkit.elixir-europe.org/">research lifecycle</a> and depending on the tool and the usage each stage can carry risks of misconduct: Fabrication, Falsification, Plagiarism.
+Every stage of the <a href="https://rdmkit.elixir-europe.org/">research lifecycle</a> can use AI, and every use carries risks: misconduct (fabrication, falsification, plagiarism) or disregard for good research practice (e.g. undisclosed use, careless referencing).
 </div>
 
 <style>
