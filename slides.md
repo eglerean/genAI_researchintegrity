@@ -406,6 +406,7 @@ layout: default
   • AI systems are <strong>neither authors, co-authors nor owners</strong>: authorship lies with human researchers<br>
   • Peer review and grant evaluation: <strong>never delegate the judgement</strong>; funder and journal rules come first</div>
 </div>
+
 <style>
 .ref-line { font-size: 0.7rem; opacity: 0.75; margin: -0.6rem 0 0.8rem; }
 .allea { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 0.5rem 0.75rem; }
