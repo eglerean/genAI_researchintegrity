@@ -9,6 +9,7 @@ themeConfig:
   download:
     url: /slides.pdf
     text: Download PDF
+favicon: https://eglerean.github.io/favicon.svg
 title: Generative AI, Research Integrity and Ethics
 author: Enrico Glerean
 info: |
