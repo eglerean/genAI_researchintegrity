@@ -93,76 +93,154 @@ AI is something that helps with the work.
 
 <p>Invisible AI: in word processors, search engines, translation, and transcription tools.</p>
 
+
+
+---
+layout: default
+---
+
+# Generative AI and Research Integrity
+
+<div class="ref-line">Figure adapted from Glerean (2025) <a href="https://www.edpb.europa.eu/our-work-tools/our-documents/support-pool-experts-projects/fundamentals-secure-ai-systems-personal_en">“Fundamentals of secure AI systems with personal data”</a>, European Data Protection Board</div>
+
+<p>For simplicity we focus on <strong>generative AI systems</strong> that use <strong>General Purpose AI models</strong> such as <strong>Large Language Models</strong> that can be used in your research work. Other uses of AI are not covered in this section (classifiers, recommendation systems, ML approaches to analyse data, etc…)</p>
+
+<div class="grid-2-3">
+  <div class="card">
+    <h3>Generating one modality from another</h3>
+    <ul>
+      <li>Text → Text</li>
+      <li>Text → Code</li>
+      <li>Speech → Text</li>
+      <li>Text → Speech</li>
+      <li>Text → Image</li>
+      <li>Image → Text</li>
+      <li>…</li>
+    </ul>
+  </div>
+  <div class="card dark ai-sys-diagram">
+    <div class="asd-io-wrap asd-in">
+      <div class="asd-io"><div class="asd-label">Data &amp; Input</div></div>
+      <div class="asd-sample small">“Translate this email from English to Finnish: Hi Annukka, the AI lecture of our…”</div>
+    </div>
+    <div class="asd-arrow asd-in">→</div>
+    <div class="asd-system">
+      <div class="asd-label">AI system</div>
+      <div class="asd-sub">e.g. a chatbot</div>
+      <div class="asd-model">
+        <div class="asd-label">AI model</div>
+        <div class="asd-sub">e.g. a Large Language Model</div>
+      </div>
+    </div>
+    <div class="asd-io-wrap asd-out">
+      <div class="asd-io"><div class="asd-label">Outputs</div></div>
+      <div class="asd-sample small">“Hei Annukka, tutkimusetiikan kurssimme tekoälyluento on…”</div>
+    </div>
+    <div class="asd-arrow asd-out">←</div>
+  </div>
+</div>
+
+<style>
+/* Dark box: inputs (top) go into the AI system, which wraps the AI model; outputs (bottom) come back out on the same side.
+   Same look as the agent diagram (Harness and Model boxes) */
+.ai-sys-diagram { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); grid-template-rows: 1fr 1fr; gap: 0.5rem 0.6rem; align-items: center; }
+.ai-sys-diagram .asd-label { font-family: var(--asc-font-serif); font-weight: 600; font-size: 1.1rem; }
+.ai-sys-diagram .asd-sub { font-size: 0.8rem; opacity: 0.8; }
+.asd-in { grid-row: 1; }
+.asd-out { grid-row: 2; }
+/* Example prompt and output under the two boxes, in small monospace text */
+.asd-io-wrap { grid-column: 1; }
+.asd-sample { margin-top: 0.4rem; font-family: var(--asc-font-mono); opacity: 0.85; }
+.asd-io { padding: 0.8rem 0.9rem; text-align: center; background: var(--asc-night-raised); border: 1px solid rgba(250, 249, 245, 0.3); border-radius: var(--asc-radius-md); }
+.asd-arrow { grid-column: 2; font-size: 1.6rem; line-height: 1; color: var(--asc-clay); }
+.asd-system { grid-column: 3; grid-row: 1 / span 2; align-self: stretch; display: flex; flex-direction: column; padding: 0.8rem 1rem 1rem; border: 2px solid var(--asc-clay); border-radius: var(--asc-radius-lg); }
+.asd-system .asd-model { flex: 1; margin-top: 0.6rem; display: flex; flex-direction: column; justify-content: center; padding: 1rem 0.9rem; text-align: center; background: var(--asc-clay); color: var(--asc-ink); border-radius: var(--asc-radius-md); }
+.asd-model .asd-sub { opacity: 0.85; }
+</style>
+
 ---
 layout: default
 ---
 
 # The Research Process aided by AI tools
-### Examples of AI tools that can be used in different parts of the research lifecycle
 
-<div class="rdm-grid">
-  <div class="stage" style="--stage: var(--aalto-orange)">Plan</div>
-  <div class="stage" style="--stage: var(--aalto-darkyellow)">Collect</div>
-  <div class="stage" style="--stage: var(--aalto-green)">Process</div>
-  <div class="stage" style="--stage: var(--aalto-aquagreen)">Analyse</div>
-  <div class="stage" style="--stage: var(--aalto-blue)">Preserve</div>
-  <div class="stage" style="--stage: var(--aalto-violet)">Share</div>
-  <div class="stage" style="--stage: var(--aalto-red)">Reuse</div>
+<div class="ref-line">with Responsible Conduct of Research at its core. Wheel adapted from <a href="https://rdmkit.elixir-europe.org/">RDMkit, “The data lifecycle”</a></div>
 
-  <div class="cell">
-  • Grant writing<br>
-  • Research planning<br>
-  • Study design<br>
-  • Browsing and summarising the literature
-  </div>
-  <div class="cell">
-  • Interfaces for data collection<br>
-  • Code and automation help<br>
-  • Synthetic data generation
-  </div>
-  <div class="cell">
-  • Brainstorming on approaches for data preprocessing<br>
-  • Code and automation<br>
-  • Data minimisation (pseudo- and anonymisation)<br>
-  • Data annotation (e.g. deductive coding)
-  </div>
-  <div class="cell">
-  • Annotations<br>
-  • Methodological considerations<br>
-  • Data analysis (code and automation)
-  </div>
-  <div class="cell">
-  • Metadata preparation<br>
-  • Summarising<br>
-  • Organising and storing (meta)data
-  </div>
-  <div class="cell">
-  • Writing and editing<br>
-  • Improving research outputs (tables, figures)<br>
-  • Peer review simulation<br>
-  • Summarising for the public<br>
-  • Media outreach
-  </div>
-  <div class="cell">
-  • Facilitating discovery and FAIRness<br>
-  • Exploring open datasets<br>
-  • Identifying research gaps
-  </div>
-</div>
-
-
-<div class="card dark ow-bottom">
-Every stage of the <a href="https://rdmkit.elixir-europe.org/">research lifecycle</a> can use AI, and every use carries risks: misconduct (fabrication, falsification, plagiarism) or disregard for good research practice (e.g. undisclosed use, careless referencing).
+<div class="rdm-wheel">
+<svg class="rw-svg" viewBox="-165 -165 330 330" role="img" aria-label="Research data lifecycle wheel: Plan, Collect, Process, Analyse, Preserve, Share, Reuse, around Responsible Conduct of Research, ethics and law">
+  <path d="M22.0 -158.5 A160 160 0 0 1 135.4 -85.2 L117.7 -55.3 L84.6 -53.3 A100 100 0 0 0 13.7 -99.1 L33.4 -125.6 Z" style="fill: var(--aalto-orange)" />
+  <path d="M137.6 -81.6 A160 160 0 0 1 151.1 52.8 L116.6 57.5 L94.4 33.0 A100 100 0 0 0 86.0 -51.0 L119.1 -52.2 Z" style="fill: var(--aalto-darkyellow)" />
+  <path d="M149.6 56.7 A160 160 0 0 1 52.9 151.0 L27.7 127.0 L33.1 94.4 A100 100 0 0 0 93.5 35.4 L115.0 60.5 Z" style="fill: var(--aalto-green)" />
+  <path d="M49.0 152.3 A160 160 0 0 1 -85.0 135.5 L-82.0 100.9 L-53.2 84.7 A100 100 0 0 0 30.6 95.2 L24.4 127.7 Z" style="fill: var(--aalto-aquagreen)" />
+  <path d="M-88.6 133.3 A160 160 0 0 1 -159.0 18.0 L-130.0 -1.2 L-99.4 11.3 A100 100 0 0 0 -55.4 83.3 L-84.6 98.7 Z" style="fill: var(--aalto-blue)" />
+  <path d="M-159.4 13.8 A160 160 0 0 1 -113.2 -113.1 L-80.1 -102.4 L-70.8 -70.7 A100 100 0 0 0 -99.6 8.6 L-129.9 -4.6 Z" style="fill: var(--aalto-violet)" />
+  <path d="M-110.2 -116.0 A160 160 0 0 1 17.8 -159.0 L30.1 -126.5 L11.1 -99.4 A100 100 0 0 0 -68.9 -72.5 L-77.4 -104.5 Z" style="fill: var(--aalto-red)" />
+  <text x="77.1" y="-104.7" class="rw-label">Plan</text>
+  <text x="129.9" y="-5.0" class="rw-label">Collect</text>
+  <text x="84.9" y="98.4" class="rw-label">Process</text>
+  <text x="-24.0" y="127.8" class="rw-label">Analyse</text>
+  <text x="-114.9" y="60.9" class="rw-label">Preserve</text>
+  <text x="-119.2" y="-51.8" class="rw-label">Share</text>
+  <text x="-33.8" y="-125.5" class="rw-label">Reuse</text>
+  <text y="-8" class="rw-core-text rw-core-big">RCR</text>
+  <text y="18" class="rw-core-text">Ethics &amp; Law</text>
+</svg>
+  <div class="rw-box" style="--stage: var(--aalto-orange); left: 540px; top: 14px"><ul class="small">
+      <li>Grant writing</li>
+      <li>Research planning</li>
+      <li>Study design</li>
+      <li>Browsing and summarising the literature</li>
+    </ul></div>
+  <div class="rw-box" style="--stage: var(--aalto-darkyellow); left: 576px; top: 126px"><ul class="small">
+      <li>Interfaces for data collection</li>
+      <li>Code and automation help</li>
+      <li>Synthetic data generation</li>
+    </ul></div>
+  <div class="rw-box" style="--stage: var(--aalto-green); left: 546px; top: 253px"><ul class="small">
+      <li>Brainstorming on approaches for data preprocessing</li>
+      <li>Code and automation</li>
+      <li>Data minimisation (pseudo- and anonymisation)</li>
+      <li>Data annotation (e.g. deductive coding)</li>
+    </ul></div>
+  <div class="rw-box" style="--stage: var(--aalto-aquagreen); left: 111px; top: 301px"><ul class="small">
+      <li>Annotations</li>
+      <li>Methodological considerations</li>
+      <li>Data analysis (code and automation)</li>
+    </ul></div>
+  <div class="rw-box" style="--stage: var(--aalto-blue); left: 23px; top: 215px"><ul class="small">
+      <li>Metadata preparation</li>
+      <li>Summarising</li>
+      <li>Organising and storing (meta)data</li>
+    </ul></div>
+  <div class="rw-box" style="--stage: var(--aalto-violet); left: 15px; top: 84px"><ul class="small">
+      <li>Writing and editing</li>
+      <li>Improving research outputs (tables, figures)</li>
+      <li>Peer review simulation</li>
+      <li>Summarising for the public</li>
+      <li>Media outreach</li>
+    </ul></div>
+  <div class="rw-box" style="--stage: var(--aalto-red); left: 87px; top: 0px"><ul class="small">
+      <li>Facilitating discovery and FAIRness</li>
+      <li>Exploring open datasets</li>
+      <li>Identifying research gaps</li>
+    </ul></div>
 </div>
 
 <style>
-.rdm-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 0.4rem; margin-top: 1rem; }
-.rdm-grid .stage { white-space: nowrap; text-align: center; font-weight: 700; font-size: 0.85rem; padding: 0.4rem 0.2rem; border-radius: var(--asc-radius-lg); background: var(--stage); color: #fff; }
-.rdm-grid .cell { padding: 0.5rem; font-size: 0.7rem; line-height: 1.3; background: var(--asc-surface); border: 1px solid var(--asc-border); border-radius: var(--asc-radius-lg); }
-.ow-bottom { margin-top: 1rem; padding: 0.6rem 1.3rem; }
-.ow-bottom p { font-family: var(--asc-font-serif); font-size: 1.02rem; line-height: 1.3; margin: 0; }
+/* Wheel with each example card placed so that its inner corner touches its own wedge (positions computed for a 290px wheel) */
+.rdm-wheel { position: relative; height: 380px; }
+.rw-svg { position: absolute !important; left: 297px; top: 35px; width: 290px; height: 290px; }
+.rw-label { text-anchor: middle; dominant-baseline: middle; font-weight: 700; font-size: 14px; fill: #fff; }
+.rw-core-text { text-anchor: middle; dominant-baseline: middle; font-size: 16px; fill: var(--asc-text); }
+.rw-core-big { font-size: 30px; font-weight: 700; }
+.rw-box { position: absolute !important; width: 290px; padding: 0.3rem 0.6rem; background: var(--asc-surface); border: 2px solid var(--stage); border-radius: var(--asc-radius-md); }
+.rw-box ul { margin: 0; }
+/* Black bullets here: the default blue bullet would read as another stage colour */
+.rw-box li::before { background: #000; }
+/* Smaller text, so half the theme's bullet-to-text gap (bullet left from -1.15rem to -0.68rem; list indent shrinks by the same amount) */
+.rw-box ul { padding-left: 0.93rem; }
+.rw-box li::before { left: -0.68rem; }
 </style>
-
 
 ---
 layout: section
