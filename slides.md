@@ -650,10 +650,19 @@ An AI agent pairs the model with more components so that it can **take real acti
       </div>
     </div>
   </div>
-  <div class="ad-arrows">⇅</div>
-  <div class="ad-env">
-    <div class="ad-label">Environment</div>
-    <div class="ad-chips"><span>files</span><span>shell</span><span>Slurm</span><span>APIs</span><span>web</span></div>
+  <div class="ad-bottom">
+    <div class="ad-arrows">⇅</div>
+    <div></div>
+    <div class="ad-arrows">⇅</div>
+    <div class="ad-env">
+      <div class="ad-label">Environment</div>
+      <div class="ad-chips"><span>files</span><span>shell</span><span>Slurm</span><span>APIs</span><span>web</span><span>Git</span><span>databases</span><span>MCP</span><span>emails / chat</span></div>
+    </div>
+    <div class="ad-arrows ad-side">⇄</div>
+    <div class="ad-subs">
+      <div class="ad-subagent"><div class="ad-label">Sub-agent</div></div>
+      <div class="ad-subagent"><div class="ad-label">Sub-agent</div></div>
+    </div>
   </div>
 </div>
 <div class="ad-source">Adapted from Hugging Face, <a href="https://huggingface.co/blog/agent-glossary">"Harness, Scaffold, and the AI Agent Terms Worth Getting Right"</a>, 2026</div>
@@ -669,7 +678,12 @@ An AI agent pairs the model with more components so that it can **take real acti
 .ad-model { background: var(--asc-clay); color: var(--asc-ink); border-radius: var(--asc-radius-md); padding: 0.6rem 0.9rem; }
 .ad-model .ad-sub { margin-bottom: 0; opacity: 0.85; }
 .ad-arrows { text-align: center; font-size: 1.4rem; line-height: 1; color: var(--asc-clay); }
-.ad-env { border: 1px solid rgba(250, 249, 245, 0.3); border-radius: var(--asc-radius-md); padding: 0.55rem 0.9rem; display: flex; align-items: center; gap: 1rem; }
+/* Bottom row: Environment (half the Harness width) ⇄ two sub-agents; row above holds the ⇅ to the Harness */
+.ad-bottom { display: grid; grid-template-columns: 1fr auto 1fr; gap: 0.4rem 0.5rem; align-items: stretch; }
+.ad-side { align-self: center; }
+.ad-subs { display: flex; gap: 0.5rem; }
+.ad-subagent { flex: 1; display: flex; align-items: center; justify-content: center; text-align: center; border: 2px solid var(--asc-clay); border-radius: var(--asc-radius-md); padding: 0.55rem 0.5rem; }
+.ad-env { border: 1px solid rgba(250, 249, 245, 0.3); border-radius: var(--asc-radius-md); padding: 0.55rem 0.9rem; display: flex; flex-direction: column; align-items: flex-start; gap: 0.35rem; }
 .ad-chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
 .ad-chips span { background: rgba(250, 249, 245, 0.12); border-radius: 999px; padding: 0.1rem 0.6rem; font-size: 0.72rem; }
 .ad-source { font-size: 0.65rem; opacity: 0.7; margin-top: 0.6rem; text-align: right; }
@@ -690,7 +704,7 @@ class: wide-image fit-image
 
 <div class="card yellow" style="margin-top: 1rem">
 
-**Other examples:** AI agents conducting full literature reviews and syntheses, planning and running experiments, theorem demonstrations. 
+**Other examples:** AI agents conducting full literature reviews and syntheses ([Padarha et al. 2026](https://openreview.net/forum?id=qrR2mrP0TH)), planning and running experiments in a robotic lab ([Smith et al. 2026](https://www.biorxiv.org/content/10.64898/2026.02.05.703998v1.abstract)), theorem demonstrations in Lean ([Tsoukalas et al. 2026](https://www.science.org/doi/10.1126/science.aej2213)).
 
 </div>
 
