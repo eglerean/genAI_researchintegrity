@@ -8,7 +8,7 @@
     "export": "slidev export",
     "dev:classic": "VITE_PALETTE=aalto-classic slidev --open",
     "dev:scicomp-web": "VITE_PALETTE=scicomp-web slidev --open",
-    "pdf": "slidev export --with-toc --output public/slides.pdf"
+    "pdf": "slidev export --with-toc --output public/Glerean_2026_AItools_ResearchIntegrity.pdf"
   },
   "dependencies": {
     "@slidev/cli": "~0.47.5"

@@ -10,7 +10,7 @@ Slides made with [Slidev](https://sli.dev) and the Aalto Scientific Computing th
 | Path | What it is |
 | --- | --- |
 | `slides.md` | The slides. The headmatter at the top sets the theme, palette, footer credit and PDF metadata. |
-| `public/` | Images and other static files, served from the site root. Refer to them as `/image.png`. Also holds `slides.pdf`. |
+| `public/` | Images and other static files, served from the site root. Refer to them as `/image.png`. Also holds `Glerean_2026_AItools_ResearchIntegrity.pdf`. |
 | `slidev-theme-aalto-scicomp/` | A copy of the theme. Its `README.md` documents layouts, palettes and helpers. |
 | `styles/index.ts` | Lets you switch palettes from the command line (`VITE_PALETTE`) |
 | `.github/workflows/deploy.yml` | Builds the slides and publishes them on GitHub Pages |
@@ -54,7 +54,7 @@ Run both of these. Each should finish without errors.
 
 ```bash
 npm run build      # builds the static site into dist/ (what GitHub Pages serves)
-npm run pdf        # exports the PDF to public/slides.pdf
+npm run pdf        # exports the PDF to public/Glerean_2026_AItools_ResearchIntegrity.pdf
 ```
 
 To check the built site the way GitHub Pages will serve it:
@@ -74,7 +74,7 @@ The PDF export needs a headless browser. Install it once:
 npm i --no-save playwright-chromium
 ```
 
-`npm run pdf` writes `public/slides.pdf`, with a clickable table of contents. The footer's download link points to this file, so **regenerate the PDF and commit it whenever the slides change**. Fonts load from Google Fonts, so export while you're online. The finished PDF works offline, which makes it a good backup for the talk.
+`npm run pdf` writes `public/Glerean_2026_AItools_ResearchIntegrity.pdf`, with a clickable table of contents. The footer's download link points to this file, so **regenerate the PDF and commit it whenever the slides change**. Fonts load from Google Fonts, so export while you're online. The finished PDF works offline, which makes it a good backup for the talk.
 
 ### Colour palettes
 
@@ -93,7 +93,7 @@ git commit -m "Describe your change"
 git push
 ```
 
-`node_modules/`, `dist/` and stray export files are ignored by `.gitignore`. `package-lock.json` and `public/slides.pdf` are committed.
+`node_modules/`, `dist/` and stray export files are ignored by `.gitignore`. `package-lock.json` and `public/Glerean_2026_AItools_ResearchIntegrity.pdf` are committed.
 
 **Starting over in a new GitHub repo** (only if the `origin` remote doesn't exist yet):
 
@@ -114,7 +114,7 @@ Notes:
 
 - Pages on a private repo needs a paid GitHub plan, and anyone with the link can see the slides.
 - The workflow uses `npm ci`, so `package-lock.json` must be committed and in sync with `package.json`. Run `npm install` after changing dependencies.
-- The workflow does not build the PDF; it serves the committed `public/slides.pdf`.
+- The workflow does not build the PDF; it serves the committed `public/Glerean_2026_AItools_ResearchIntegrity.pdf`.
 
 ## Updating the theme
 
