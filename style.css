@@ -20,9 +20,13 @@
 
 /* Small text for secondary details (same size as the slide 4 grid cells); line height stays as normal text */
 .slidev-layout .small { font-size: 0.7rem; }
-/* A small list or block: its items follow it instead of the normal-text size */
+/* Even smaller, for side examples that only need to be glanced at */
+.slidev-layout .smaller { font-size: 0.5rem; }
+/* A small or smaller list or block: its items follow it instead of the normal-text size */
 .slidev-layout .small li,
-.slidev-layout .small p { font-size: inherit; }
+.slidev-layout .small p,
+.slidev-layout .smaller li,
+.slidev-layout .smaller p { font-size: inherit; }
 
 /* References: under the title, or pinned above the 2.75rem footer.
    !important: the theme sets position: relative on all slide content (layouts.css:352) */
@@ -39,6 +43,7 @@
 
 /* Card grids and stacks, all with the theme's 1rem card gap */
 .slidev-layout .grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1rem; }
+.slidev-layout .grid-4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1rem; }
 .slidev-layout .grid-2-3 { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 1rem; margin-bottom: 1rem; }
 .slidev-layout .stack { display: grid; gap: 1rem; align-content: start; }
 
