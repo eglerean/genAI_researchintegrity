@@ -440,6 +440,34 @@ class: title-middle
 layout: default
 ---
 
+# Reminder: the ALLEA Code of Conduct
+
+<div class="ref-line">ALLEA (2023) <a href="https://doi.org/10.26356/ECOC">The European Code of Conduct for Research Integrity – Revised Edition 2023</a>, sections 1 and 3.1</div>
+
+<div class="grid-4">
+  <div class="card"><h3>Reliability</h3><p class="small">In ensuring the quality of research, reflected in the design, methodology, analysis, and use of resources.</p></div>
+  <div class="card"><h3>Honesty</h3><p class="small">In developing, undertaking, reviewing, reporting, and communicating research in a transparent, fair, full, and unbiased way.</p></div>
+  <div class="card"><h3>Respect</h3><p class="small">For colleagues, research participants, research subjects, society, ecosystems, cultural heritage, and the environment.</p></div>
+  <div class="card"><h3>Accountability</h3><p class="small">For the research from idea to publication, for its management and organisation, for training, supervision, and mentoring, and for its wider societal impacts.</p></div>
+</div>
+
+<div class="grid-4">
+  <div class="card dark"><h3>Fabrication</h3><p class="small">Making up data or results and recording them as if they were real.</p></div>
+  <div class="card dark"><h3>Falsification</h3><p class="small">Manipulating research materials, equipment, images, or processes, or changing, omitting, or suppressing data or results without justification.</p></div>
+  <div class="card dark"><h3>Plagiarism</h3><p class="small">Using other people’s work or ideas without giving proper credit to the original source.</p></div>
+  <div class="card dark"><h3>Other violations</h3><ul class="small">
+    <li><strong>Hiding AI use</strong></li>
+    <li>Selective citing</li>
+    <li>Misusing statistics</li>
+    <li>Withholding data</li>
+    <li>…and more</li>
+  </ul></div>
+</div>
+
+---
+layout: default
+---
+
 # Responsible AI and research integrity (1/2)
 
 <div class="ref-line"><a href="https://allea.org/code-of-conduct/">ALLEA Code of Conduct</a> | <a href="https://research-and-innovation.ec.europa.eu/document/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en">EC Living Guidelines (October, 2026)</a> | <a href="https://www.aalto.fi/en/services/responsible-use-of-generative-artificial-intelligence-in-the-research-process">Aalto.fi guidelines</a> | <a href="https://tenk.fi/sites/default/files/2026-06/Artificial%20Intelligence%20in%20Research.%20TENK%27s%20Recommendation%202026.pdf">TENK 2026</a></div>
@@ -578,7 +606,7 @@ layout: default
 
   <li>AI agents and <a href="https://coderefinery.github.io/coding-with-ai/security/">AI coding risks</a> (CodeRefinery)</li>
   <li>Slopsquatting: more than 20% of AI suggested imports were <a href="https://arxiv.org/abs/2406.10279">non-existent packages</a> (Spracklen et al. 2025)</li>
-  <li>A coding agent <a href="https://www.eweek.com/news/replit-ai-coding-assistant-failure/">deleted a production database</a> during a code freeze, then lied about it (Replit 2025)</li>
+  <li>Coding agent <a href="https://www.eweek.com/news/replit-ai-coding-assistant-failure/">deleted a production database</a> during a code freeze, then lied about it</li>
   <li>Researchers <a href="https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_priority_controversy">allegedly claimed their work leaked to OpenAI</a> on one of the Navier–Stokes Millennium Prize Problems.</li>
 </ul>
 </div>
@@ -610,8 +638,7 @@ layout: default
   <h3>Why disclose?</h3>
   <ul class="small">
     <li>AI can never be granted authorship: <strong>authorship implies agency and responsibility</strong></li>
-    <li>If it directly affect research results, you must disclose AI use</li>
-    <li><strong>fear of negative judgement affect the honest reporting of AI use in science</strong>, leading to hesitance and underreporting: institution should encourage an amtosphere of trust and transparency</li>
+    <li><strong>Fear of negative judgement affect the honest reporting of AI use in science</strong>, leading to hesitance and underreporting: institution should encourage an amtosphere of trust and transparency</li>
     <li><strong>No consensus yet</strong>: a <a href="https://council.science/our-work/ai-disclosure-in-research/">global reporting standard</a> (ISC, COPE, STM, Global Young Academy) is being developed at the World Conference on Research Integrity 2026 and will feed the next EC guidelines</li>
   </ul>
   <h4>Example from <a href="https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals">Elsevier</a>:</h4>
