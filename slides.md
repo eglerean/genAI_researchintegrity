@@ -10,13 +10,13 @@ themeConfig:
     url: /slides.pdf
     text: Download PDF
 favicon: https://eglerean.github.io/favicon.svg
-title: Generative AI, Research Integrity and Ethics
+title: AI tools, Research Integrity and Ethics
 author: Enrico Glerean
 info: |
   Slides by Enrico Glerean (https://eglerean.github.io/), CC BY 4.0.
   Course: LC-L1000 Research Ethics for Doctoral Students
   Source: https://github.com/eglerean/genAI_researchintegrity
-keywords: generative AI, research integrity, research ethics, Enrico Glerean, https://eglerean.github.io/
+keywords: generative AI, AI tools, research integrity, research ethics, Enrico Glerean, https://eglerean.github.io/
 layout: cover
 class: no-footer
 hexText: "Gen AI\nINTEGRITY"
@@ -92,7 +92,7 @@ AI is something that helps with the work.
 - A coding agent writing analysis scripts
 - An AI assistant helping to fill in a data management plan
 
-<p>Invisible AI: in word processors, search engines, translation, and transcription tools.</p>
+<p class="small">Invisible AI: in word processors, search engines, translation, transcription tools, automatic meeting note-takers.</p>
 
 
 
@@ -104,7 +104,7 @@ layout: default
 
 <div class="ref-line">Figure adapted from Glerean (2025) <a href="https://www.edpb.europa.eu/our-work-tools/our-documents/support-pool-experts-projects/fundamentals-secure-ai-systems-personal_en">“Fundamentals of secure AI systems with personal data”</a>, European Data Protection Board</div>
 
-<p>For simplicity we focus on <strong>generative AI systems</strong> that use <strong>General Purpose AI models</strong> such as <strong>Large Language Models</strong> that can be used in your research work. Other uses of AI are not covered in this section (classifiers, recommendation systems, ML approaches to analyse data, etc…)</p>
+<p>For simplicity we focus on <strong>generative AI systems</strong> that use <strong>General Purpose AI models</strong> such as <strong>Large Language Models</strong> that can be used in your research work,  including <strong>agentic AI</strong> systems.</p>
 
 <div class="grid-2-3">
   <div class="card">
@@ -362,10 +362,10 @@ layout: default
 
 <div class="sd-eval">
   <p>❌ <strong>Sustainability</strong>: huge impact on the planet; data centres use about 1.5% of global electricity, set to double by 2030 (<a href="https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai">IEA</a>) (<a href="https://arxiv.org/abs/2510.09022">Morand et al. 2026</a>)</p>
-  <p>❌ <strong>Safety</strong>: induced <a href="https://www.reuters.com/investigates/special-report/meta-ai-chatbot-death/">psychosis</a>, <a href="https://www.theguardian.com/technology/2025/aug/27/chatgpt-scrutiny-family-teen-killed-himself-sue-open-ai">suicide</a>, <a href="https://www.cnn.com/2026/01/07/business/character-ai-google-settle-teen-suicide-lawsuit">teen-harm lawsuits settled</a> (2026), <a href="https://abc17news.com/money/cnn-business-consumer/2026/06/01/florida-sues-openai-alleging-its-unsafe-for-children/">Florida sues OpenAI</a> (2026), <a href="https://www.vice.com/en/article/openai-used-kenyan-workers-making-dollar2-an-hour-to-filter-traumatic-content-from-chatgpt/">exploitation</a> of global-south annotators (<a href="https://www.science.org/doi/10.1126/science.aec8352">Cheng et al.,  2026</a>; <a href="https://dl.acm.org/doi/full/10.1145/3715275.3732039">Moore et al. 2025</a>)</p>
+  <p>❌ <strong>Safety</strong>: induced <a href="https://www.reuters.com/investigates/special-report/meta-ai-chatbot-death/">death</a>, <a href="https://www.theguardian.com/technology/2025/aug/27/chatgpt-scrutiny-family-teen-killed-himself-sue-open-ai">suicide</a>, <a href="https://www.cnn.com/2026/01/07/business/character-ai-google-settle-teen-suicide-lawsuit">teen-harm lawsuits settled</a> (2026), <a href="https://abc17news.com/money/cnn-business-consumer/2026/06/01/florida-sues-openai-alleging-its-unsafe-for-children/">Florida sues OpenAI</a> (2026), <a href="https://www.vice.com/en/article/openai-used-kenyan-workers-making-dollar2-an-hour-to-filter-traumatic-content-from-chatgpt/">exploitation</a> of global-south annotators and sycophancy (<a href="https://www.science.org/doi/10.1126/science.aec8352">Cheng et al.,  2026</a>; <a href="https://dl.acm.org/doi/full/10.1145/3715275.3732039">Moore et al. 2025</a>)</p>
   <p>❌ <strong>Accountability</strong>: few consequences for harming individuals; Grok's sexualised deepfakes led to <a href="https://www.cnbc.com/2026/01/05/india-eu-investigate-musks-x-after-grok-created-deepfake-child-porn.html">investigations</a> (2026), but Canada's regulator <a href="https://www.aljazeera.com/economy/2026/6/11/musks-grok-accused-of-violating-canadian-privacy-laws-on-deepfakes">cannot fine xAI</a> (<a href="https://arxiv.org/abs/2512.01166">Stelling et al. 2026</a>; <a href="https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026">Int. AI Safety Report 2026</a>)</p>
   <p>❌ <strong>Fairness</strong>: biases against <a href="https://www.theguardian.com/technology/2024/mar/16/ai-racism-chatgpt-gemini-bias">Black people</a>, women, minorities (<a href="https://www.nature.com/articles/s41586-024-07856-5">Hofmann et al., 2024</a>; <a href="https://www.nature.com/articles/s41586-025-09581-z">Guilbeault et al., 2025</a>)</p>
-  <p>❌ <strong>Explainability</strong>: proprietary models, no clear explanation of how they work; company <a href="https://news.stanford.edu/stories/2025/12/foundation-model-transparency-index-ai-companies-information">transparency fell</a> from 58 to 41 out of 100 in 2025 (<a href="https://arxiv.org/abs/2505.05410">Chen et al. 2025</a>)</p>
+  <p>❌ <strong>Explainability</strong>: proprietary models, no clear explanation of how they work; company <a href="https://news.stanford.edu/stories/2025/12/foundation-model-transparency-index-ai-companies-information">transparency fell</a> in 2025 (<a href="https://arxiv.org/abs/2505.05410">Chen et al. 2025</a>)</p>
   <p>❌ <strong>Data Stewardship</strong>: training data kept secret, illegal use of copyrighted material (<a href="https://www.jurist.org/news/2026/07/judge-approves-record-1-5-billion-settlement-involving-anthropic/">$1.5B settlement for pirated books</a>, 2026), Stable Diffusion even reproduced <a href="https://www.theverge.com/2023/2/6/23587393/ai-art-copyright-lawsuit-getty-images-stable-diffusion">Getty Images watermarks</a> (UK, 2023-2025), unauthorised <a href="https://europeanlawblog.eu/2klfhf06/">processing of personal data</a>, near-verbatim extraction of books from LLMs (<a href="https://arxiv.org/abs/2601.02671">Ahmed et al. 2026</a>)</p>
 </div>
 
@@ -379,7 +379,7 @@ layout: default
 
 <div class="corner-icon"><img src="/images/AIpyramid_3..png" alt="AI pyramid, level: AI governance and regulations"></div>
 
-<div class="ref-line"><a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng">Regulation (EU) 2024/1689</a>: a risk-based approach. Most AI tools are minimal risk with no new obligations; general-purpose AI models (e.g. GPT, Gemini, Claude) have their own rules.</div>
+<div class="ref-line"><a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng">Regulation (EU) 2024/1689</a>: a risk-based approach. Most task-specific AI tools are minimal risk; general-purpose AI models (e.g. GPT, Gemini, Claude) have their own rules.</div>
 
 <div class="grid-3">
   <div class="card">
@@ -391,6 +391,7 @@ layout: default
       <li>Untargeted scraping of face images</li>
       <li>Emotion recognition at work and in education</li>
       <li>Predicting crime from profiling alone</li>
+      <li>Non-consensual intimate deepfakes (from 2 Dec 2026)</li>
     </ul>
   </div>
   <div class="card">
@@ -417,7 +418,7 @@ layout: default
 </div>
 
 <div class="card dark">
-<strong>Scope:</strong> the AI Act is a product regulation: it applies when AI is placed on the EU market or put into service. AI developed and used only for scientific research is excluded, but if your research will become a product or a service, the Act will apply to it, so plan for it early.<br>
+<strong>Scope:</strong> the AI Act is a product regulation: it applies when AI is placed on the EU market or put into service. AI specifically developed and put into service for the sole purpose of scientific research and development is excluded, but if your research will become a product or a service, the Act will apply to it, so plan for it early.<br>
 </div>
 
 <style>
@@ -446,18 +447,19 @@ layout: default
 <div class="grid-2-3">
   <div class="card"><h3>Reliability</h3><p>Quality of research/education, reflected in the design, methodology, analysis, and use of resources.</p></div>
   <div class="card dark"><ul>
-    <li><strong>Verify</strong> and <strong>reproduce</strong> AI-generated information; watch for bias and inaccuracy</li>
-    <li>Check all <strong>references</strong>, <strong>citations</strong> and <strong>summaries</strong>: AI fabricates citations and misstates real ones</li>
-    <li>Output is non-deterministic: keep <strong>prompts, logs and model versions</strong> when needed to reproduce or audit</li>
+    <li><strong>Verify</strong> and <strong>reproduce</strong> AI-generated information; watch for bias, hallucinations, and inaccuracy</li>
+    <li>Check all <strong>references</strong>, <strong>citations</strong> and <strong>summaries</strong>: AI fabricates citations and summarises real ones wrong.</li>
+    <li>Output is non-deterministic: keep <strong>prompts, logs and model versions</strong> when needed to understand, reproduce, or audit the research</li>
   </ul></div>
 </div>
 
 <div class="grid-2-3">
   <div class="card"><h3>Honesty</h3><p>Doing your work in a transparent, fair, full, and unbiased way.</p></div>
   <div class="card dark"><ul>
+    <li>Disclose which AI tools you used <strong>substantially</strong> and <strong>what they contributed.</strong></li>
     <li><strong>Disclose</strong> AI use that shapes your judgement or could affect results; in doubt, disclose</li>
-    <li>Say <strong>how you verified</strong> the output (e.g. hallucination checks, bias mitigation)</li>
-    <li>Follow your journal's, funder's or discipline's rules on where and how</li>
+    <li>Say <strong>how you verified</strong> the output</li>
+    <li>Follow your <strong>journal's, funder's, or discipline's rules</strong></li>
   </ul></div>
 </div>
 
@@ -472,18 +474,19 @@ layout: default
 <div class="grid-2-3">
   <div class="card"><h3>Respect</h3><p>Towards colleagues, research participants, research subjects, society, cultural heritage, and the environment.</p></div>
   <div class="card dark"><ul>
-    <li>Protect privacy, confidentiality, IP and <strong>research security</strong>: use <strong>Aalto AI Assistant</strong> for confidential data</li>
-    <li><strong>Don't upload unpublished work</strong>, yours or colleagues', to external tools</li>
-    <li><strong>Cite and credit sources</strong> that AI output may reproduce; choose the <strong>lowest-impact tool</strong> for the task</li>
+    <li>Protect privacy, confidentiality, IP and <strong>research security</strong></li>
+    <li><strong>Don't upload unpublished work</strong> to non-approved external tools, ask permission from other authors.</li>
+    <li><strong>Cite and credit sources</strong> that AI output may reproduce</li> 
+    <li>Consider sustainability: choose the <strong>lowest-impact tool</strong> for the task</li>
   </ul></div>
 </div>
 
 <div class="grid-2-3">
   <div class="card"><h3>Accountability</h3><p>From idea to publication, and all the steps of the study / teaching / research process.</p></div>
   <div class="card dark"><ul>
-    <li>You remain <strong>fully responsible</strong> for AI-assisted content, also when <strong>agents</strong> act for you</li>
-    <li>AI systems are <strong>neither authors, co-authors nor owners</strong>: authorship lies with human researchers</li>
-    <li>Peer review and grant evaluation: <strong>never delegate the judgement</strong>; funder and journal rules come first</li>
+    <li>You remain <strong>ultimately responsible</strong> for research outputs, also when <strong>agents</strong> act for you.</li>
+    <li>AI systems are <strong>neither authors nor co-authors nor owners</strong></li>
+    <li>Peer review and grant evaluation: <strong>never delegate the judgement</strong>; funder and journal rules come first. Peer reviewers are the human-in-the-loop.</li>
   </ul></div>
 </div>
 
@@ -510,7 +513,7 @@ layout: default
     <ul>
       <li>Non-approved remote tools</li>
       <li>Loss of confidentiality</li>
-      <li>Increased cybersecurity risks</li>
+      <li>Increased (cyber)security risks</li>
       <li>Unethical / illegal solutions sold by vendors</li>
     </ul>
   </div>
@@ -520,9 +523,8 @@ layout: default
       <li>Fabrication</li>
       <li>Falsification</li>
       <li>Plagiarism/IPR infringement</li>
-      <li>Deskilling</li>
-      <li>Environmental cost</li>
       <li>Irreproducible research</li>
+      <li>Environmental cost</li>
     </ul>
   </div>
   <div class="card red">
@@ -530,7 +532,9 @@ layout: default
     <ul>
       <li>Training data bias</li>
       <li>No explainability</li>
-      <li>Erosion of autonomy</li>
+      <li>Deskilling</li>
+      <li>Erosion of autonomy and automation bias</li>
+      <li>Sycophancy</li>
       <li>Impacts justice</li>
     </ul>
   </div>
@@ -554,7 +558,7 @@ layout: default
   <h3>Plagiarism</h3>
   <p class="small">LLMs can reproduce text (or code) from their training data verbatim <strong>without citing the original source</strong></p>
   <h3>Fabrication / Falsification</h3>
-  <p class="small">AI tools can synthesise or analyse data, so it can be used (willingly or not) to <strong>fabricate data or falsify results</strong> without the ability to verify and reproduce the process.</p>
+  <p class="small">AI tools can synthesise or analyse data, so they can be used (willingly or not) to <strong>fabricate data or falsify results</strong> without the ability to verify and reproduce the process.</p>
   <h3>Security and data protection</h3>
   <p class="small">Common generative AI systems process your data remotely; <strong>protect the confidentiality and integrity</strong> of your data and of the people you work with. Use approved Aalto AI tools and sovereign local AI solutions.</p>
 </div>
@@ -562,20 +566,20 @@ layout: default
 <h3>A selection of recent cases (October 2026)</h3>
 <ul class="small">
   <li>Whole books <a href="https://arxiv.org/abs/2601.02671">extracted from production LLMs</a> (Ahmed et al. 2026)</li>
-  <li>1 in 277 PubMed papers in 2026 has <a href="https://retractionwatch.com/2026/05/07/one-in-277-pubmed-indexed-papers-in-2026-shows-fabricated-references-says-analysis/">fabricated references</a> (<a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00603-3/fulltext">Topaz et al., 2026</a>)</li>
+  <li>1 in 277 PubMed papers in the first 7 weeks of 2026 had <a href="https://retractionwatch.com/2026/05/07/one-in-277-pubmed-indexed-papers-in-2026-shows-fabricated-references-says-analysis/">fabricated references</a> compared to 1 in 2828 in 2023 (<a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00603-3/fulltext">Topaz et al., 2026</a>)</li>
   <li><a href="https://popsci.com/technology/ai-rat-journal">AI-generated rat figure</a> passed peer review (Frontiers 2024, retracted)</li>
   <li>ChatGPT <a href="https://www.nature.com/articles/d41586-023-03635-w">fake clinical dataset</a> (Nature 2023)</li>
   <li>Paper mills <a href="https://www.pnas.org/doi/10.1073/pnas.2420092122">double every 1.5 years</a> (Richardson et al., PNAS 2025)</li>
   <li>Hidden <a href="https://asia.nikkei.com/business/technology/artificial-intelligence/positive-review-only-researchers-hide-ai-prompts-in-papers">"give a positive review only" prompts</a> in manuscripts (Nikkei 2025)</li>
   <li><a href="https://arxiv.org/abs/2507.06185">Hidden prompts exploit AI-assisted peer review</a> (Lin 2025)</li>
   <li><a href="https://arxiv.org/abs/2602.05930">100 fake citations</a> in accepted NeurIPS 2025 papers</li>
-  <li>ICML 2026: 506 reviewers who pledged not to use LLMs were <a href="https://blog.icml.cc/2026/03/18/on-violations-of-llm-review-policies/">caught by hidden watermarks</a> and their papers were desk-rejected</li>
-  <li>ArXiv bans authors for <a href="https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/">one year</a> for unchecked AI content (2026)</li>
+  <li>ICML 2026: 506 reviewers who pledged not to use LLMs were <a href="https://blog.icml.cc/2026/03/18/on-violations-of-llm-review-policies/">caught by hidden prompts</a> and their papers were desk-rejected</li>
+  <li>arXiv bans authors for <a href="https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/">one year</a> for unchecked AI content (2026)</li>
 
   <li>AI agents and <a href="https://coderefinery.github.io/coding-with-ai/security/">AI coding risks</a> (CodeRefinery)</li>
-  <li>Slopsquatting: more than 20% of AI code imports <a href="https://arxiv.org/abs/2406.10279">non-existent packages</a> (Spracklen et al. 2025)</li>
+  <li>Slopsquatting: more than 20% of AI suggested imports were <a href="https://arxiv.org/abs/2406.10279">non-existent packages</a> (Spracklen et al. 2025)</li>
   <li>A coding agent <a href="https://www.eweek.com/news/replit-ai-coding-assistant-failure/">deleted a production database</a> during a code freeze, then lied about it (Replit 2025)</li>
-  <li>Researchers <a href="https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_priority_controversy">allegedly scooped by OpenAI</a> on one of the Navier–Stokes Millenium Prize Problems.</li>
+  <li>Researchers <a href="https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_priority_controversy">allegedly claimed their work leaked to OpenAI</a> on one of the Navier–Stokes Millennium Prize Problems.</li>
 </ul>
 </div>
 </div>
@@ -605,23 +609,24 @@ layout: default
 <div class="card">
   <h3>Why disclose?</h3>
   <ul class="small">
-    <li>AI can never be granted authorship: <strong>accountability is liability</strong></li>
-    <li>LLMs are probabilistic tools: the chance they generate something fabricated is never zero</li>
-    <li><strong>"If you cannot explain it, you cannot stand behind it"</strong> → disclose</li>
+    <li>AI can never be granted authorship: <strong>authorship implies agency and responsibility</strong></li>
+    <li>If it directly affect research results, you must disclose AI use</li>
+    <li><strong>fear of negative judgement affect the honest reporting of AI use in science</strong>, leading to hesitance and underreporting: institution should encourage an amtosphere of trust and transparency</li>
     <li><strong>No consensus yet</strong>: a <a href="https://council.science/our-work/ai-disclosure-in-research/">global reporting standard</a> (ISC, COPE, STM, Global Young Academy) is being developed at the World Conference on Research Integrity 2026 and will feed the next EC guidelines</li>
   </ul>
-  <h4>Example from Elsevier:</h4>
-  <ul class="small">
-    <li>Protect your data, the data of your subjects, IPR/copyright</li>
-    <li>Grammar, spelling, punctuation check → no need to declare</li>
-    <li>Any other use → declare</li>
-    <li>No AI images unless it's for the research design/methods visualisation</li>
+  <h4>Example from <a href="https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals">Elsevier</a>:</h4>
+  <ul class="smaller">
+    <li>Basic grammar, spelling and punctuation: no declaration needed.</li>
+    <li>Substantial changes to sentence structure: declare it in the "Declaration of generative AI and AI-assisted technologies in the manuscript preparation process" section.</li>
+    <li>Explanatory images can be made by AI, disclose use in each caption.</li>
+    <li>AI must never create or alter images of primary research data.</li>
+    <li>AI used as part of the research method: describe it in Methods.</li>
   </ul>
 </div>
 <div class="stack">
   <div class="card dark">
     <h3>European Commission: disclose substantial use</h3>
-    <p class="small">Disclose AI use that <strong>shapes your judgement</strong> or could affect results or their interpretation. Using AI as a method or source, or for literature review, research gaps, aims, hypotheses or data analysis, <strong>is</strong> substantial; spelling, grammar, polishing and formatting are not. Say <strong>how you verified</strong> the output; keep prompts, logs and model versions if needed to reproduce or audit. In doubt, disclose (<a href="https://research-and-innovation.ec.europa.eu/document/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en">Living guidelines, EC 2026</a>)</p>
+    <p class="small">Disclose AI use that <strong>shapes your judgement</strong> or could affect results or their interpretation. Using AI as a method or source, or for literature review, research gaps, aims, hypotheses, or interpreting data analysis, <strong>is</strong> substantial; spelling, grammar, polishing and formatting are not. Say <strong>how you verified</strong> the output; keep prompts, logs and model versions if needed to reproduce or audit. In doubt, disclose (<a href="https://research-and-innovation.ec.europa.eu/document/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en">Living guidelines, EC 2026</a>)</p>
   </div>
   <div class="card dark">
     <h3>TENK: substantial influence → disclose</h3>
@@ -630,7 +635,6 @@ layout: default
 
 </div>
 </div>
-
 
 
 ---
@@ -662,7 +666,7 @@ layout: default
   <tbody>
     <tr>
       <td><strong>High risk</strong> (peer-review submission: text, code, figures, references)</td>
-      <td class="bp-red">Use AI only to <strong>brainstorm or self-learning</strong>.</td>
+      <td class="bp-red">Use AI only for <strong>brainstorming or self-learning</strong>.</td>
       <td class="bp-orange">Use AI for <strong>simple delegated tasks</strong> you can fully review.</td>
     </tr>
     <tr>
@@ -707,6 +711,7 @@ color: dark
 
 <div class="grid-2-3">
 <div>
+The four elements of an AI agent: <strong>a) goal complexity, b) environmental complexity, c) adaptability, d) independent execution. </strong> (<a href="https://doi.org/10.1787/396cf758-en%20">OECD 2026</a>).
 
 An AI agent pairs the model with more components so that it can **take real actions**.
 
@@ -783,7 +788,7 @@ class: wide-image fit-image
 
 <div class="card yellow" style="margin-top: 1rem">
 
-**Other examples:** AI agents conducting full literature reviews and syntheses ([Padarha et al. 2026](https://openreview.net/forum?id=qrR2mrP0TH)), planning and running experiments in a robotic lab ([Smith et al. 2026](https://www.biorxiv.org/content/10.64898/2026.02.05.703998v1.abstract)), theorem demonstrations in Lean ([Tsoukalas et al. 2026](https://www.science.org/doi/10.1126/science.aej2213)).
+**Other examples:** AI agents conducting full literature reviews and syntheses ([Padarha et al. 2026](https://openreview.net/forum?id=qrR2mrP0TH)), planning and running experiments in a robotic lab ([Smith et al. 2026](https://www.biorxiv.org/content/10.64898/2026.02.05.703998v1.abstract)), theorem proving in Lean ([Tsoukalas et al. 2026](https://www.science.org/doi/10.1126/science.aej2213)).
 
 </div>
 
@@ -799,22 +804,37 @@ class: fit-image
 
 <div style="font-size: 0.82rem">
 
-**Research integrity**: code that runs but is *plausibly wrong*, silent data loss, undisclosed AI use, unclear decisions in literature reviews.
+**Research integrity**: code that runs but is *plausibly wrong*, silent data loss, unclear decisions in literature reviews.
 
 **Confidentiality**: unpublished work, participant data and researchers' credentials sent to third-party providers.
 
-**Cybersecurity**: prompt injection, hallucinated or typosquatted packages, insecure generated code, agents with too much access.
+**Cybersecurity**: prompt injection, insecure code, agents with too much access.
 
 </div>
 
 <div class="card dark">
-
-**Validate. Minimize. Contain.**
-
+<strong>Validate. Minimize. Contain.</strong>
+<ul class="small">
+<li>Set check points</li>
+<li>Minimise access sensitive data</li>
+<li>Ensure minimal <i>blast radius</i> </li>
+<li>You are not exempted from legal responsibilities because an agent acted on your behalf</li>
+</ul>
 </div>
+
 
 <div style="font-size: 0.6rem; opacity: 0.7; margin-top: 0.6rem">Source: <a href="https://coderefinery.github.io/coding-with-ai/security/">CodeRefinery, Coding with AI: Security</a></div>
 
+
+---
+layout: end
+---
+# AI does not change the principles of responsible research
+
+AI might not be the right and best tool<br>
+Accountability remains with researchers<br>
+Confidentiality is non-negotiable<br>
+Transparency and disclosure build trust
 
 ---
 layout: end
@@ -827,7 +847,7 @@ layout: end
 <br>
 <br>
 
-We are all learning together, join our dedicated <a href="https://www.aalto.fi/en/services/ai-training-for-the-entire-aalto-community">trainings on AI tools in research</a>, or come talk with <a href="https://www.aalto.fi/en/services/research-software-engineers">Aalto Research Software Engineers</a> and <a href="https://www.aalto.fi/en/services/data-agents">Aalto Data Agents</a>.
+We are all learning together, let's share the best practices, join our dedicated <a href="https://www.aalto.fi/en/services/ai-training-for-the-entire-aalto-community">trainings on AI tools in research</a>, or come talk with <a href="https://www.aalto.fi/en/services/research-software-engineers">Aalto Research Software Engineers</a> and <a href="https://www.aalto.fi/en/services/data-agents">Aalto Data Agents</a>.
 
 
 <style>
