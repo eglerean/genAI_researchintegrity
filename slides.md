@@ -7,7 +7,7 @@ themeConfig:
     text: Enrico Glerean · CC BY 4.0
     url: https://eglerean.github.io/
   download:
-    url: /slides.pdf
+    url: /Glerean_2026_AItools_ResearchIntegrity.pdf
     text: Download PDF
 favicon: https://eglerean.github.io/favicon.svg
 title: AI tools, Research Integrity and Ethics
