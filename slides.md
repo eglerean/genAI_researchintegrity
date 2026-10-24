@@ -607,7 +607,7 @@ layout: default
   <li>AI agents and <a href="https://coderefinery.github.io/coding-with-ai/security/">AI coding risks</a> (CodeRefinery)</li>
   <li>Slopsquatting: more than 20% of AI suggested imports were <a href="https://arxiv.org/abs/2406.10279">non-existent packages</a> (Spracklen et al. 2025)</li>
   <li>Coding agent <a href="https://www.eweek.com/news/replit-ai-coding-assistant-failure/">deleted a production database</a> during a code freeze, then lied about it</li>
-  <li>Researchers <a href="https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_priority_controversy">allegedly claimed their work leaked to OpenAI</a> on one of the Navier–Stokes Millennium Prize Problems.</li>
+  <li>Researchers <a href="https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_priority_controversy">claimed their work leaked to OpenAI</a> on one of the Navier–Stokes Millennium Prize Problems (and <a href="https://theconversation.com/a-biologist-queries-whether-ai-borrowed-his-work-to-make-major-discovery-an-expert-explains-the-rules-293529">a similar story with Claude</a>).</li>
 </ul>
 </div>
 </div>
