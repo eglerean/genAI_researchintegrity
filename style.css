@@ -44,6 +44,7 @@
 /* Card grids and stacks, all with the theme's 1rem card gap */
 .slidev-layout .grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1rem; }
 .slidev-layout .grid-4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1rem; }
+.slidev-layout .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1rem; }
 .slidev-layout .grid-2-3 { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 1rem; margin-bottom: 1rem; }
 .slidev-layout .stack { display: grid; gap: 1rem; align-content: start; }
 

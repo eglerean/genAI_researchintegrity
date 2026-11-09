@@ -409,21 +409,139 @@ layout: default
     <h3>Transparency</h3>
     <p class="aia-when">Limited risk · since 2 Aug 2026</p>
     <ul class="small">
-      <li>Tell people they are talking to an AI</li>
-      <li>Mark AI-generated content as machine-readable</li>
-      <li>Label deepfakes</li>
-      <li>Disclose emotion recognition and biometric categorisation</li>
+      <li><strong>Providers</strong>: tell people they are talking to an AI; mark AI output as machine-readable</li>
+      <li><strong>Deployers</strong>: label deepfakes and AI text on matters of public interest; disclose emotion recognition and biometric categorisation</li>
     </ul>
   </div>
 </div>
 
-<div class="card dark">
-<strong>Scope:</strong> the AI Act is a product regulation: it applies when AI is placed on the EU market or put into service. AI specifically developed and put into service for the sole purpose of scientific research and development is excluded, but if your research will become a product or a service, the Act will apply to it, so plan for it early.<br>
+<div class="card dark small">
+<strong>Scope:</strong> the AI Act is a product regulation: it applies when AI is placed on the EU market or put into service. AI developed and put into service for the sole purpose of scientific research is excluded, but if your research will become a product or a service, the Act will apply to it, so plan for it early.<br>
+<strong>Roles:</strong> a <em>provider</em> develops an AI system or places it on the market; a <em>deployer</em> uses an AI system under its own authority in a professional context (e.g. a university, or you publishing AI-generated content).
 </div>
 
 <style>
 .aia-when { color: var(--asc-muted); }
 </style>
+
+---
+layout: default
+---
+
+# AI Act transparency rules: who does what?
+
+<div class="corner-icon"><img src="/images/AIpyramid_3..png" alt="AI pyramid, level: AI governance and regulations"></div>
+
+<div class="ref-line">Article 50 of the AI Act helps people recognise when they interact with AI or see AI-generated content. Applies from <strong>2 Aug 2026</strong> (<a href="https://digital-strategy.ec.europa.eu/en/factpages/quick-facts-transparency-rules-ai-systems">EU quick facts</a>)</div>
+
+<div class="grid-2">
+  <div class="card">
+    <h3>Providers: marking</h3>
+    <p class="aia-when">Those who build and offer AI systems (OpenAI, Anthropic, Google…)</p>
+    <ul class="small">
+      <li>Design AI systems so people know they are <strong>interacting with an AI</strong> (e.g. chatbots)</li>
+      <li>Apply a <strong>machine-readable mark</strong> to AI-generated or manipulated text, images, video and audio, and make it detectable (Art. 50(2))</li>
+      <li>Not required for assistive functions for standard editing that do not substantially change the input</li>
+      <li>Systems already on the market have a grace period until <strong>2 Dec 2026</strong></li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>Deployers: labelling</h3>
+    <p class="aia-when">Those who use AI professionally: organisations, and also researchers</p>
+    <ul class="small">
+      <li>Tell people exposed to <strong>emotion recognition</strong> or <strong>biometric categorisation</strong></li>
+      <li>Clearly label <strong>deepfakes</strong>: AI image, audio or video resembling real persons, objects, places or events that would falsely appear authentic (Art. 50(4))</li>
+      <li>Label AI-generated <strong>text published to inform the public on matters of public interest</strong>, unless it underwent human review and someone holds editorial responsibility</li>
+      <li>Artistic, satirical or fictional works: limited disclosure</li>
+    </ul>
+  </div>
+</div>
+
+<div class="ref-bottom">Practical guidance: <a href="https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content">Code of Practice on Transparency of AI-generated Content</a> (June 2026, voluntary) · <a href="https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations">Commission Guidelines on Article 50</a> (July 2026)</div>
+
+<style>
+.aia-when { color: var(--asc-muted); font-size: 0.8rem; }
+</style>
+
+---
+layout: default
+---
+
+# Labelling AI content with the EU icons
+
+<div class="corner-icon"><img src="/images/AIpyramid_3..png" alt="AI pyramid, level: AI governance and regulations"></div>
+
+<div class="ref-line">Three optional <a href="https://digital-strategy.ec.europa.eu/en/policies/eu-icons-labelling-ai-generated-content">EU icons</a> that deployers can use to label deepfakes and AI text on matters of public interest</div>
+
+<div class="grid-3">
+  <div class="card">
+    <div class="eu-icon"><img src="/images/eu-ai-icons/ai-black.png" alt="EU icon: AI"></div>
+    <h3>Basic</h3>
+    <p class="small">AI was involved; combine it with your own text label or a second, interactive layer with details.</p>
+    <p class="small eu-ex">Example: a video captioned “voices generated with <span class="eu-inline"><img src="/images/eu-ai-icons/ai-black.png" alt="AI"></span>”</p>
+  </div>
+  <div class="card">
+    <div class="eu-icon"><img src="/images/eu-ai-icons/ai-generated-black.png" alt="EU icon: AI generated"></div>
+    <h3>Fully AI-generated</h3>
+    <p class="small">The whole deepfake or text was generated by AI, with no human-made elements or editorial control beyond prompting.</p>
+    <p class="small eu-ex">Example: an AI-generated video of a fictional event; an AI-generated news summary</p>
+  </div>
+  <div class="card">
+    <div class="eu-icon"><img src="/images/eu-ai-icons/ai-modified-black.png" alt="EU icon: AI modified"></div>
+    <h3>Partially AI-modified</h3>
+    <p class="small">Existing human-made content was partly modified by AI.</p>
+    <p class="small eu-ex">Example: a face swapped in an authentic photo; a photo of an empty flat furnished with AI</p>
+  </div>
+</div>
+
+<div class="card dark small">
+<strong>How to place them:</strong> visible at the latest when people first see the content, not hidden by overlays, embedded in the content so they survive resharing and downloads, accessible (readable size, alt text). In research: label an AI-generated figure in a press release or outreach post, not only in the methods section.
+</div>
+
+<div class="ref-bottom">Icons free to use without attribution (<a href="https://ec.europa.eu/newsroom/dae/redirection/document/129547">PNG</a> · <a href="https://ec.europa.eu/newsroom/dae/redirection/document/129546">SVG</a>); detailed specifications in section 2 of the <a href="https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content">Code of Practice</a></div>
+
+<style>
+.eu-icon { background: #fff; border-radius: 0.4rem; height: 3.2rem; display: flex; align-items: center; justify-content: center; margin-bottom: 0.5rem; }
+.eu-icon img { height: 100%; width: auto; border-radius: 0; }
+.eu-ex { opacity: 0.8; font-style: italic; }
+.eu-inline { display: inline-block; background: #fff; border-radius: 0.2rem; vertical-align: middle; }
+.eu-inline img { height: 1.8em; width: auto; display: block; border-radius: 0; }
+</style>
+
+---
+layout: default
+---
+
+# Watermarking ≠ disclosure
+
+<div class="corner-icon"><img src="/images/AIpyramid_3..png" alt="AI pyramid, level: AI governance and regulations"></div>
+
+<div class="ref-line">The legal transparency view (AI Act). The research integrity view on disclosing AI use comes later.</div>
+
+<div class="grid-2">
+  <div class="card">
+    <h3>Watermarking: a duty of providers</h3>
+    <ul class="small">
+      <li>An invisible, <strong>machine-readable</strong> mark embedded by the AI system itself (Art. 50(2))</li>
+      <li>OpenAI (<a href="https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/">ChatGPT in the EU</a>) and Anthropic (<a href="https://bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text">Claude</a>) now watermark text…</li>
+      <li>…but <strong>no public detection tool</strong> exists yet: OpenAI gives access only to approved researchers, Anthropic has announced an API, so the claims cannot be independently verified (<a href="https://arxiv.org/abs/2609.09604">Nemecek et al. 2026</a>)</li>
+      <li>Editing or paraphrasing weakens the mark; no watermark does not prove human authorship</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>Disclosure: a duty of deployers (you?)</h3>
+    <ul class="small">
+      <li>A <strong>human-readable label</strong> that you add (Art. 50(4))</li>
+      <li>Applies to researchers who publish <strong>deepfakes</strong> (e.g. AI-generated images of real people or places in outreach) or <strong>unreviewed AI text on matters of public interest</strong> (e.g. press releases, blog posts)</li>
+      <li>Text you have reviewed and take editorial responsibility for is exempt under the AI Act…</li>
+      <li>…but <strong>research integrity asks for more</strong>: disclose AI use that matters for your research, whatever the law says</li>
+    </ul>
+  </div>
+</div>
+
+<div class="card dark small">
+<strong>What about AI detectors?</strong> They guess from statistical patterns, so they are probabilistic: false positives happen and are biased against non-native English writers (<a href="https://doi.org/10.1016/j.patter.2023.100779">Liang et al. 2023</a>), and false accusations have <a href="https://themarkup.org/machine-learning/2023/08/14/ai-detection-tools-falsely-accuse-international-students-of-cheating">harmed students</a>. Examples: <a href="https://www.pangram.com/">Pangram</a> (commercial); open source on Hugging Face and GitHub, e.g. <a href="https://huggingface.co/openai-community/roberta-base-openai-detector">RoBERTa detector</a> (GPT-2 era), <a href="https://github.com/ahans30/Binoculars">Binoculars</a> (Hans et al. 2024). <strong>A detector score is never proof of misconduct.</strong>
+</div>
 
 
 ---
