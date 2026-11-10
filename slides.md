@@ -710,7 +710,7 @@ layout: default
 <h3>A selection of recent cases (October 2026)</h3>
 <ul class="small">
   <li>Whole books <a href="https://arxiv.org/abs/2601.02671">extracted from production LLMs</a> (Ahmed et al. 2026)</li>
-  <li>1 in 277 PubMed papers in the first 7 weeks of 2026 had <a href="https://retractionwatch.com/2026/05/07/one-in-277-pubmed-indexed-papers-in-2026-shows-fabricated-references-says-analysis/">fabricated references</a> compared to 1 in 2828 in 2023 (<a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00603-3/fulltext">Topaz et al., 2026</a>)</li>
+  <li>1 in 277 PubMed papers in the first 7 weeks of 2026 had <a href="https://retractionwatch.com/2026/05/07/one-in-277-pubmed-indexed-papers-in-2026-shows-fabricated-references-says-analysis/">fabricated references</a> compared to 1 in 2828 in 2023 (<a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00603-3/fulltext">Topaz et al., 2026</a>). <a href="https://www.pnas.org/doi/10.1073/pnas.2623869123">Same authors more recently</a> in other fields of science (1 in 200 physics papers contain fabricated citations)</li>
   <li><a href="https://popsci.com/technology/ai-rat-journal">AI-generated rat figure</a> passed peer review (Frontiers 2024, retracted)</li>
   <li>ChatGPT <a href="https://www.nature.com/articles/d41586-023-03635-w">fake clinical dataset</a> (Nature 2023)</li>
   <li>Paper mills <a href="https://www.pnas.org/doi/10.1073/pnas.2420092122">double every 1.5 years</a> (Richardson et al., PNAS 2025)</li>
